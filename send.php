@@ -70,8 +70,8 @@
 			</tr>
 			<?php
 				for($i=0; $i<count($display_dataset); $i++) {
-					$first['LatestValue'] = 0;
-					$second['LatestValue'] = 0;
+					$first['LatestValue'] = '';
+					$second['LatestValue'] = '';
 					for($k=0; $k<count($first_data); $k++) {
 						if($first_data[$k]['Category'] == $display_dataset[$i]) {
 							$first = $first_data[$k];
